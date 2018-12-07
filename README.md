@@ -107,7 +107,15 @@ To Visualize on Tensorboard, use the following command
 tensorboard --logdir=”path to ./ckpt”
 ```
 Note that all the checkpoints are in the ./ckpt folder so simply start a tensorboard session to visualize it. Also all the saved checkpoints for student models are also saved there.
-
+```
+1. Baseline : 12-03-18:09/convlarge,Adam,200epochs,b256,lr0.15/test
+2. Mean teacher without BN :
+12-03-20:12/convlarge,Adam,200epochs,b256,lr0.15/test
+12-03-23:38/convlarge,Adam,200epochs,b256,lr0.2/test
+3. Mean Teacher with BN : 12-05-11:55/convlarge,Adam,200epochs,b256,lr0.2/test
+4. Hybrid Net : 12-06-10:58/hybridnet,Adam,200epochs,b256,lr0.2/test
+5. SNTG + Meant Teacher: 12-07-00:36/convlarge,Adam,200epochs,b256,lr0.2/test
+```
 
 
 ## License
